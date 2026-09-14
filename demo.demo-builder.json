@@ -1,0 +1,31 @@
+{
+  "kind": "demo",
+  "version": 1,
+  "name": "Kukla Bodea",
+  "description": "Steve's Bodea-branded B2B demo for data center equipment",
+  "configDefaults": {
+    "ADOBE_COMMERCE_WEBSITE_CODE": "bodea",
+    "ACCS_WEBSITE_CODE": "bodea",
+    "ADOBE_COMMERCE_STORE_CODE": "bodea_store",
+    "ACCS_STORE_CODE": "bodea_store",
+    "ADOBE_COMMERCE_STORE_VIEW_CODE": "bodea_us",
+    "ACCS_STORE_VIEW_CODE": "bodea_us"
+  },
+  "configFlags": {
+    "commerce-b2b-enabled": true,
+    "commerce-companies-enabled": true
+  },
+  "requiresMesh": false,
+  "datapack": {
+    "name": "bodea",
+    "version": "main"
+  },
+  "blockLibraries": [
+    "bodea-blocks"
+  ],
+  "contentSource": {
+    "org": "skukla",
+    "site": "kukla-bodea",
+    "indexPath": "/sitemap.json"
+  }
+}
